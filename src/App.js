@@ -12,10 +12,12 @@ const routeDefinitions = createRoutesFromElements(
 
 
 //here we are using objects and array 
-const router = createBrowserRouter([
-  { path: '/', element: <Home /> },
-  { path: '/products', element: <Products /> },
-]);
+// const router = createBrowserRouter([
+//   { path: '/', element: <Home /> },
+//   { path: '/products', element: <Products /> },
+// ]);
+
+const router = createBrowserRouter(routeDefinitions);
 
 const App = () => {
   return <RouterProvider router={router}/>;
