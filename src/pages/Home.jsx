@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <>
-            <div>My Home Page</div>
+            <h3>My Home Page</h3>
             <p>Go to
                 <Link to='/products'> the list of products</Link>
             </p>
